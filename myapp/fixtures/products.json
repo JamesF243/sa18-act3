@@ -1,0 +1,30 @@
+[
+    {
+      "model": "myapp.product",
+      "pk": 1,
+      "fields": {
+        "name": "Peach Yogurt 4pk",
+        "price": "10.99",
+        "description": "Rich, creamy, Peach yogurt by Chobani"
+      }
+    },
+    {
+      "model": "myapp.product",
+      "pk": 2,
+      "fields": {
+        "name": "Strawberry Yogurt 4pk",
+        "price": "10.99",
+        "description": "Rich, creamy, Strawberry yogurt by Chobani"
+      }
+    },
+    {
+      "model": "myapp.product",
+      "pk": 3,
+      "fields": {
+        "name": "Mixed Berry Yogurt 4pk",
+        "price": "10.99",
+        "description": "Rich, creamy, Mixed Berry yogurt by Chobani"
+      }
+    }
+  ]
+  
