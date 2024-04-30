@@ -17,9 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from myapp import views  # Import views from the app directory (myapp)
+from django.shortcuts import redirect  # Import redirect to redirect requests
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name='index'),
-    path('<int:id>/', views.show, name='show'),
+    path('', lambda request: redirect('index')),  # Redirect empty path to the index page
+    path('products/', views.index, name='index'),  
+    path('products/<int:id>/', views.show, name='show'),  
 ]
